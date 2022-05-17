@@ -1,0 +1,54 @@
+E:\01-程序数据\142-【毕设】北京顺义-数据批量处理0.9-读txt导excel\dataManage\dataManage\bin\Debug\dataManage.exe
+E:\01-程序数据\142-【毕设】北京顺义-数据批量处理0.9-读txt导excel\dataManage\dataManage\bin\Debug\dataManage.pdb
+E:\01-程序数据\142-【毕设】北京顺义-数据批量处理0.9-读txt导excel\dataManage\dataManage\obj\x86\Debug\dataManage.csprojResolveAssemblyReference.cache
+E:\01-程序数据\142-【毕设】北京顺义-数据批量处理0.9-读txt导excel\dataManage\dataManage\obj\x86\Debug\dataManage.Form1.resources
+E:\01-程序数据\142-【毕设】北京顺义-数据批量处理0.9-读txt导excel\dataManage\dataManage\obj\x86\Debug\dataManage.Properties.Resources.resources
+E:\01-程序数据\142-【毕设】北京顺义-数据批量处理0.9-读txt导excel\dataManage\dataManage\obj\x86\Debug\dataManage.csproj.GenerateResource.Cache
+E:\01-程序数据\142-【毕设】北京顺义-数据批量处理0.9-读txt导excel\dataManage\dataManage\obj\x86\Debug\dataManage.exe
+E:\01-程序数据\142-【毕设】北京顺义-数据批量处理0.9-读txt导excel\dataManage\dataManage\obj\x86\Debug\dataManage.pdb
+E:\01-程序数据\158-【作业】昆明理工大学-excel转面0.5\dataManage\dataManage\obj\x86\Debug\dataManage.exe
+E:\01-程序数据\158-【作业】昆明理工大学-excel转面0.5\dataManage\dataManage\obj\x86\Debug\dataManage.pdb
+E:\01-程序数据\158-【作业】昆明理工大学-excel转面0.5\dataManage\dataManage\bin\Debug\dataManage.exe
+E:\01-程序数据\158-【作业】昆明理工大学-excel转面0.5\dataManage\dataManage\bin\Debug\dataManage.pdb
+E:\01-程序数据\158-【作业】昆明理工大学-excel转面0.5\dataManage\dataManage\obj\x86\Debug\dataManage.csprojResolveAssemblyReference.cache
+E:\01-程序数据\158-【作业】昆明理工大学-excel转面0.5\dataManage\dataManage\obj\x86\Debug\dataManage.Form1.resources
+E:\01-程序数据\158-【作业】昆明理工大学-excel转面0.5\dataManage\dataManage\obj\x86\Debug\dataManage.Properties.Resources.resources
+E:\01-程序数据\158-【作业】昆明理工大学-excel转面0.5\dataManage\dataManage\obj\x86\Debug\dataManage.csproj.GenerateResource.Cache
+E:\01-程序数据\158-【作业】昆明理工大学-excel转面0.5\dataManage\dataManage\obj\x86\Debug\dataManage.PrintActiveview.resources
+C:\Users\Alvaro\Desktop\新建文件夹\dataManage\dataManage\obj\x86\Debug\dataManage.exe
+C:\Users\Alvaro\Desktop\新建文件夹\dataManage\dataManage\obj\x86\Debug\dataManage.pdb
+C:\Users\Alvaro\Desktop\新建文件夹\dataManage\dataManage\bin\Debug\dataManage.exe
+C:\Users\Alvaro\Desktop\新建文件夹\dataManage\dataManage\bin\Debug\dataManage.pdb
+C:\Users\Alvaro\Desktop\新建文件夹\dataManage\dataManage\obj\x86\Debug\dataManage.csprojResolveAssemblyReference.cache
+C:\Users\Alvaro\Desktop\新建文件夹\dataManage\dataManage\obj\x86\Debug\dataManage.Form1.resources
+C:\Users\Alvaro\Desktop\新建文件夹\dataManage\dataManage\obj\x86\Debug\dataManage.PrintActiveview.resources
+C:\Users\Alvaro\Desktop\新建文件夹\dataManage\dataManage\obj\x86\Debug\dataManage.Properties.Resources.resources
+C:\Users\Alvaro\Desktop\新建文件夹\dataManage\dataManage\obj\x86\Debug\dataManage.csproj.GenerateResource.Cache
+H:\dataManage\dataManage\obj\x86\Debug\dataManage.exe
+H:\dataManage\dataManage\obj\x86\Debug\dataManage.pdb
+H:\dataManage\dataManage\bin\Debug\dataManage.exe
+H:\dataManage\dataManage\bin\Debug\dataManage.pdb
+H:\dataManage\dataManage\obj\x86\Debug\dataManage.csprojResolveAssemblyReference.cache
+H:\dataManage\dataManage\obj\x86\Debug\dataManage.Form1.resources
+H:\dataManage\dataManage\obj\x86\Debug\dataManage.PrintActiveview.resources
+H:\dataManage\dataManage\obj\x86\Debug\dataManage.Properties.Resources.resources
+H:\dataManage\dataManage\obj\x86\Debug\dataManage.csproj.GenerateResource.Cache
+H:\备份资料\dataManage 原始\dataManage\obj\x86\Debug\dataManage.exe
+H:\备份资料\dataManage 原始\dataManage\obj\x86\Debug\dataManage.pdb
+H:\备份资料\dataManage 原始\dataManage\bin\Debug\dataManage.exe
+H:\备份资料\dataManage 原始\dataManage\bin\Debug\dataManage.pdb
+H:\备份资料\dataManage 原始\dataManage\obj\x86\Debug\dataManage.csprojResolveAssemblyReference.cache
+H:\备份资料\dataManage 原始\dataManage\obj\x86\Debug\dataManage.Form1.resources
+H:\备份资料\dataManage 原始\dataManage\obj\x86\Debug\dataManage.PrintActiveview.resources
+H:\备份资料\dataManage 原始\dataManage\obj\x86\Debug\dataManage.Properties.Resources.resources
+H:\备份资料\dataManage 原始\dataManage\obj\x86\Debug\dataManage.csproj.GenerateResource.Cache
+C:\Users\Alvaro\Desktop\dataManage 原始 (1)\dataManage\obj\x86\Debug\dataManage.exe
+C:\Users\Alvaro\Desktop\dataManage 原始 (1)\dataManage\obj\x86\Debug\dataManage.pdb
+C:\Users\Alvaro\Desktop\dataManage 原始 (1)\dataManage\bin\Debug\dataManage.exe
+C:\Users\Alvaro\Desktop\dataManage 原始 (1)\dataManage\bin\Debug\dataManage.pdb
+C:\Users\Alvaro\Desktop\dataManage 原始 (1)\dataManage\obj\x86\Debug\dataManage.csprojResolveAssemblyReference.cache
+C:\Users\Alvaro\Desktop\dataManage 原始 (1)\dataManage\obj\x86\Debug\dataManage.Form1.resources
+C:\Users\Alvaro\Desktop\dataManage 原始 (1)\dataManage\obj\x86\Debug\dataManage.MessageInput.resources
+C:\Users\Alvaro\Desktop\dataManage 原始 (1)\dataManage\obj\x86\Debug\dataManage.PrintActiveview.resources
+C:\Users\Alvaro\Desktop\dataManage 原始 (1)\dataManage\obj\x86\Debug\dataManage.Properties.Resources.resources
+C:\Users\Alvaro\Desktop\dataManage 原始 (1)\dataManage\obj\x86\Debug\dataManage.csproj.GenerateResource.Cache

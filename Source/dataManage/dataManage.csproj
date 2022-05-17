@@ -1,0 +1,411 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FE2978D4-5A2C-4396-8D16-F120D603EE3E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>dataManage</RootNamespace>
+    <AssemblyName>dataManage</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ESRI.ArcGIS.3DAnalyst">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.ADF.Local, Version=10.1.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL" />
+    <Reference Include="ESRI.ArcGIS.AxControls, Version=10.1.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.Carto">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.Controls">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.Display">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.Geometry">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.GlobeCore">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.Output">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.OutputExtensions, Version=10.1.0.0, Culture=neutral, PublicKeyToken=8fc3cc631e44ad86, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.System">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.SystemUI">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="ESRI.ArcGIS.Version" />
+    <Reference Include="stdole, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MessageInput.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MessageInput.Designer.cs">
+      <DependentUpon>MessageInput.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrintActiveview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MessageInput.resx">
+      <DependentUpon>MessageInput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintActiveview.resx">
+      <DependentUpon>PrintActiveview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MapNorthArrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FileRasterGrid16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FileRasterGrid32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GeodatabaseAdd16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GeodatabaseAdd32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GeodatabaseCompress32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GeodatabaseCreateFromFile16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GeodatabaseCreateFromFile32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GeodatabaseCreateFromShapefile32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GeodatabaseFeatureClassEmptySmall16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GeodatabaseFeatureDataset16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LayerBasemapNew16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LayoutFixedZoomIn32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LayoutFixedZoomOut32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LayoutPanTool32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LayoutZoomInTool32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LayoutZoomOutTool32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LayoutZoomTo100Percent32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LayoutZoomWholePage32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MapPreview32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ShapefileEmpty16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\start_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stop_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BuildRegions.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DatasetPreprocessing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DatasetPreprocessing_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Datasets3DPreprocessing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LineDatasetTopoCheck.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RegionToBorderLine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TopoCheck.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TopoCheck_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MapIsGlobalBrowsing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MarginPan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RefreshInvalidArea.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RollingWheelWithoutDelay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ShowNavigationBar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DetailMap.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MapBeautify.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MapDebugMode.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MapDivision.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MapGrading.Large.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MapGridTool.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MapLocation.large.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MapLocation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MapOverView.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Performance3D.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StandardMargin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MapLayerProperty.Large.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MapLayerProperty.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MapLayerProperty_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MapProperty.Large.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MapProperty.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MapProperty_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AddToCurrentMap.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AddToNewMap.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map.Large.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NewMapWindow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bookmark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bookmark_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bookmark_Next.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bookmark_Preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CoordFormatTranslator.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Entire.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MapDebugMode1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pan2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pan2_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PanSyn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RefreshMap.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Select.large.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Select.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Select_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SelectCircle.large.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SelectCircle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SelectLine.large.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SelectLine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SelectPolygon.large.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SelectPolygon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SelectRectangle.large.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SelectRectangle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ZoomFree.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ZoomFreeSyn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zoomin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zoomout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MapScale.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BoundsQuery.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FindTrack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_24px_1096778_easyicon.net.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
